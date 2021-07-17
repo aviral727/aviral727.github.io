@@ -1,0 +1,240 @@
+@font-face { font-family: Alegreya; src: url('Alegreya-BlackItalic.ttf'); }
+ body{
+  background-color: whitesmoke; 
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed; 
+  
+  margin: auto;
+
+  
+} 
+  h1{
+    text-align: center;
+    font-family: 'Alegreya';
+    font-size: 80px;
+    /*color: #00FA9A;*/
+    color: black;
+
+  }
+  h2{
+    text-align: center;
+    font-family: 'Alegreya';
+    color: black;
+  }
+  .topnav {
+    font-family: 'Alegreya';
+    font-size: 20px;
+  	color: black;
+	float: right;
+	text-align: center;
+	padding: 14px 16px;
+}
+.nbutton {
+  font-family: 'Alegreya';
+  background-color: transparent;
+  /*border: solid;*/
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px 4px;
+  cursor: pointer;
+  border-radius: 22px;
+}
+.cp{text-align: center;
+  font-family: 'Alegreya';
+  font-size: 200%;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-top: 100px;
+  color: black;
+
+}
+.join{text-align: center;
+  font-size: 50px;
+  font-family: 'Alegreya';
+  color: black;
+
+}
+
+.list{
+  font-family: 'Alegreya';
+  color:black;
+}
+.fp{
+  font-family: 'Alegreya';
+   color: black;
+   margin-left: 200px;
+   margin-top:200px;
+   font-size: 30px;
+     /* Globally */
+}
+.fp2{
+  font-family: 'Alegreya';
+  color: black;
+  margin-left: 200px;
+  font-size: 20px;
+
+
+}
+
+/* Each state */
+
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:#faebd7; }
+a:focus { text-decoration: none; color:black; }
+a:hover, a:active { text-decoration: none; color:#04AA6D }
+
+/*p{text-align: center;
+  font-size: 70%;
+
+}*/
+
+/*Contact Us*/
+
+.contact{
+  font-family: 'Alegreya';
+  font-size: 175% ;
+    color: black;
+    float: right;
+    margin-right: 30%;
+
+} 
+.cards{
+display: grid;
+  justify-content: center;
+  align-content: center;
+  margin-top: 100px;
+
+  gap: 60px;
+  grid-auto-flow: column;
+}
+.card {
+display: grid;
+grid-template-columns: 300px;  
+grid-template-rows:  210px 210px 80px;
+grid-template-areas: "image" "text" "stats";
+width: 300px;
+margin: auto;
+font-family: roboto;
+border-radius: 18px;
+background: whitesmoke; 
+box-shadow: 5px 5px 30px rgba(0,0,0,0.9);
+text-align: center;
+}
+.c-image {
+  grid-area: image;
+  background: url("phy.png");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+
+  
+  }
+
+.c-stats{
+grid-area: stats;
+}
+
+.card1 {
+display: grid;
+grid-template-columns: 300px;  
+grid-template-rows:  210px 210px 80px;
+grid-template-areas: "image" "text" "stats";
+width: 300px;
+margin: auto;
+font-family: roboto;
+border-radius: 18px;
+background: whitesmoke; 
+box-shadow: 5px 5px 30px rgba(0,0,0,0.9);
+text-align: center;
+}
+.c1-image {
+  grid-area: image;
+  background: url("chem.png");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+
+  
+  }
+.c1-text {
+  grid-area: text;
+  margin: 25px;
+}
+.c1-stats{
+grid-area: stats;
+}
+.card2 {
+display: grid;
+grid-template-columns: 300px;  
+grid-template-rows:  210px 210px 80px;
+grid-template-areas: "image" "text" "stats";
+width: 300px;
+margin: auto;
+font-family: roboto;
+border-radius: 18px;
+background: whitesmoke; 
+box-shadow: 5px 5px 30px rgba(0,0,0,0.9);
+text-align: center;
+}
+.c2-image {
+  grid-area: image;
+  background: url("math.png");
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+
+  
+  }
+  .c2-text {
+    grid-area: text;
+    margin: 25px;
+    color: grey;
+  }
+.c2-stats{
+grid-area: stats;
+}
+.dropbtn {
+  font-family: 'Alegreya';
+  color: black;
+  background-color: transparent;
+  color: black;
+  padding: 35px;
+  font-size: 50px;
+  border: none;
+  
+  
+}
+.dropdown {
+  font-family: 'Alegreya';
+  position: relative;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin-top: 100px;
+  
+  
+
+}
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  
+  z-index: 1;
+  padding: 25px;
+  
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: grid;
+}
+.dropdown-content a:hover {background-color: #04AA6D;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #04AA6D;}
